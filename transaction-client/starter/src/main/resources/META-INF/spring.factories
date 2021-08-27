@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jef.transaction.starter.SeataPropertiesAutoConfiguration,\
+com.jef.transaction.starter.SeataDataSourceAutoConfiguration,\
+com.jef.transaction.starter.SeataAutoConfiguration,\
+com.jef.transaction.starter.HttpAutoConfiguration

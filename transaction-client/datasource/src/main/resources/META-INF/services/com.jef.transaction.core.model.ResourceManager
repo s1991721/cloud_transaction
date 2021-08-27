@@ -1,0 +1,2 @@
+com.jef.transaction.datasource.datasource.DataSourceManager
+com.jef.transaction.datasource.datasource.xa.ResourceManagerXA

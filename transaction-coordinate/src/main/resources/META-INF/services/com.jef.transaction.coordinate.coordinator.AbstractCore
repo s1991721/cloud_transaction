@@ -1,0 +1,4 @@
+com.jef.transaction.coordinate.transaction.at.ATCore
+com.jef.transaction.coordinate.transaction.tcc.TccCore
+com.jef.transaction.coordinate.transaction.saga.SagaCore
+com.jef.transaction.coordinate.transaction.xa.XACore

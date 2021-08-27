@@ -1,0 +1,3 @@
+com.jef.transaction.sqlparser.druid.mysql.MySQLOperateRecognizerHolder
+com.jef.transaction.sqlparser.druid.oracle.OracleOperateRecognizerHolder
+com.jef.transaction.sqlparser.druid.postgresql.PostgresqlOperateRecognizerHolder

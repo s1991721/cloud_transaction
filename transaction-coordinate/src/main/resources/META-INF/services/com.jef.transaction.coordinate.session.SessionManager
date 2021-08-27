@@ -1,0 +1,3 @@
+com.jef.transaction.coordinate.storage.file.session.FileSessionManager
+com.jef.transaction.coordinate.storage.db.session.DataBaseSessionManager
+com.jef.transaction.coordinate.storage.redis.session.RedisSessionManager

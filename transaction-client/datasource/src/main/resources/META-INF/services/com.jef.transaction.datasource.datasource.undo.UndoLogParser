@@ -1,0 +1,5 @@
+com.jef.transaction.datasource.datasource.undo.parser.FastjsonUndoLogParser
+com.jef.transaction.datasource.datasource.undo.parser.JacksonUndoLogParser
+com.jef.transaction.datasource.datasource.undo.parser.ProtostuffUndoLogParser
+com.jef.transaction.datasource.datasource.undo.parser.KryoUndoLogParser
+com.jef.transaction.datasource.datasource.undo.parser.FstUndoLogParser

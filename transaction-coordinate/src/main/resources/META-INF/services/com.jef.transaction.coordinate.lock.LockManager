@@ -1,0 +1,3 @@
+com.jef.transaction.coordinate.storage.db.lock.DataBaseLockManager
+com.jef.transaction.coordinate.storage.file.lock.FileLockManager
+com.jef.transaction.coordinate.storage.redis.lock.RedisLockManager

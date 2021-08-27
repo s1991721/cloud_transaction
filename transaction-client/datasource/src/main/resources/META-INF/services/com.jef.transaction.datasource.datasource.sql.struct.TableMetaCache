@@ -1,0 +1,3 @@
+com.jef.transaction.datasource.datasource.sql.struct.cache.MysqlTableMetaCache
+com.jef.transaction.datasource.datasource.sql.struct.cache.OracleTableMetaCache
+com.jef.transaction.datasource.datasource.sql.struct.cache.PostgresqlTableMetaCache

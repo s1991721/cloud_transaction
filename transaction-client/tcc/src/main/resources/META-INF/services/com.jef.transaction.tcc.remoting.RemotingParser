@@ -1,0 +1,4 @@
+com.jef.transaction.tcc.remoting.parser.DubboRemotingParser
+com.jef.transaction.tcc.remoting.parser.LocalTCCRemotingParser
+com.jef.transaction.tcc.remoting.parser.SofaRpcRemotingParser
+com.jef.transaction.tcc.remoting.parser.HSFRemotingParser

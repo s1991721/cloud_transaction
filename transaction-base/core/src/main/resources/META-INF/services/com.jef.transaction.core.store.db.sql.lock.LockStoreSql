@@ -1,0 +1,5 @@
+com.jef.transaction.core.store.db.sql.lock.MysqlLockStoreSql
+com.jef.transaction.core.store.db.sql.lock.OracleLockStoreSql
+com.jef.transaction.core.store.db.sql.lock.OceanbaseLockStoreSql
+com.jef.transaction.core.store.db.sql.lock.PostgresqlLockStoreSql
+com.jef.transaction.core.store.db.sql.lock.H2LockStoreSql

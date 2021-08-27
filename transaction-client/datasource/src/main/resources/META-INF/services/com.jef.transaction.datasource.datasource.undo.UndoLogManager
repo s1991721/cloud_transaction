@@ -1,0 +1,3 @@
+com.jef.transaction.datasource.datasource.undo.mysql.MySQLUndoLogManager
+com.jef.transaction.datasource.datasource.undo.oracle.OracleUndoLogManager
+com.jef.transaction.datasource.datasource.undo.postgresql.PostgresqlUndoLogManager

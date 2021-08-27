@@ -1,0 +1,3 @@
+com.jef.transaction.coordinate.store.DbcpDataSourceProvider
+com.jef.transaction.coordinate.store.DruidDataSourceProvider
+com.jef.transaction.coordinate.store.HikariDataSourceProvider

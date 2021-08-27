@@ -1,0 +1,5 @@
+com.jef.transaction.core.store.db.sql.log.MysqlLogStoreSqls
+com.jef.transaction.core.store.db.sql.log.OracleLogStoreSqls
+com.jef.transaction.core.store.db.sql.log.PostgresqlLogStoreSqls
+com.jef.transaction.core.store.db.sql.log.OceanbaseLogStoreSqls
+com.jef.transaction.core.store.db.sql.log.H2LogStoreSqls
