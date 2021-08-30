@@ -1,11 +1,16 @@
 package com.work.order.controller;
 
+import com.jef.transaction.spring.annotation.GlobalTransactionalInterceptor;
+import com.jef.transaction.tm.api.DefaultFailureHandlerImpl;
 import com.work.order.feign.StorageFeignClient;
 import com.work.order.service.OrderService;
+import com.work.order.service.OrderServiceJar;
+import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.lang.reflect.Method;
 
 /**
  * Program Name: springcloud-nacos-seata
@@ -35,7 +40,22 @@ public class OrderController {
     @RequestMapping("/placeOrder/commit")
     public Boolean placeOrderCommit() {
 
-        orderService.placeOrder("1", "product-1", 1);
+        Object instance = new OrderServiceJar();
+
+        ProxyFactory proxyFactory = new ProxyFactory();
+        proxyFactory.setTarget(instance);
+        proxyFactory.addAdvice(new GlobalTransactionalInterceptor(new DefaultFailureHandlerImpl()));
+
+        instance = proxyFactory.getProxy();
+        try {
+            Method method = OrderServiceJar.class.getMethod("placeOrder");
+            method.invoke(instance);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+//        orderService.placeOrder("1", "product-1", 1);
         return true;
     }
 
