@@ -102,6 +102,8 @@ public class Server {
             System.exit(-1);
         }
 
+        new HealthCheck().init();
+
         System.exit(0);
     }
 }
